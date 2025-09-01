@@ -1,0 +1,16 @@
+{
+    "causes": {
+    },
+    "eqs": {
+        "test_equation_template": {
+            "org": "AISC",
+            "code": "360-22",
+            "id": "F2-2",
+            "result_sym": "M_{ltb}",
+            "arg_syms": ["C_b", "M_p", "F_y", "S_x", "L_b", "L_p", "L_r"], 
+            "expr": "{0} \\cdot \\left({1} - \\left({1} - 0.7 \\cdot {2} \\cdot {3}\\right) \\cdot \\left(\\frac{{{4}-{5}}}{{{6}-{5}}}\\right)\\right)",
+            "layout": "long"
+        }
+    }
+}
+

@@ -1,0 +1,37 @@
+[project]
+name = "structuraltools-core"
+version = "0.1.0"
+description = "Core functionality for the structuraltools project"
+readme = "README.md"
+license = "AGPL 3.0"
+license-files = ["LICENSE"]
+
+authors = [
+    { name = "Joe Bears", email = "joe.bears77@gmail.com" }
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+requires-python = ">=3.12"
+dependencies = [
+    "attrs",
+    "cattrs",
+    "numpy",
+    "pint",
+]
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+    "ruff>=0.9.7",
+    "sphinx>=8.2.1",
+    "sphinx-book-theme>=1.1.4",
+]
